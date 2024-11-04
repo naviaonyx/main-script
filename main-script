@@ -1,16 +1,35 @@
-script_key="YJikHxeVAJSNRvqTrpRNvZPPxpuwZcrH";
-
-getgenv().petsGoConfig = {
-    HIDE_NAME = false,  -- hide webhook username
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1302951303089229885/n99H7fPnFC5LhQbADYDajVEsbNn2aoxgdSmOxBa-1jpjun8sfKdqmKLgdOSV8px2DJF5",
-    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1302951303089229885/n99H7fPnFC5LhQbADYDajVEsbNn2aoxgdSmOxBa-1jpjun8sfKdqmKLgdOSV8px2DJF5",
-    DISCORD_ID = "1302951276891607122",
-    WEBHOOK_ODDS = 10000000, -- Minimum Pet Odds To Trigger Webhook
-    
-    MAIL_PET = false,  -- Mail Pet
-    MAIL_WEBHOOK_ODDS = 100000000, -- Minimum Pet Odds To Trigger MAIL Webhook
-    MAIL_PET_ODDS = 100000000,  -- Minimum Pet Odds To Mail
-    USERNAME_TO_MAIL = "Navia_onyx02" -- Mail Pet To Username
+getgenv().Config = {
+	["Auto Use Potion"] = false,
+	["Auto Buy Shop Merchant"] = false,
+	["Webhook Send Mail"] = false,
+	["Auto Ballon Gift"] = false,
+	["Auto Roll"] = false,
+	["Infinite Speed Pet"] = false,
+	["Hidden Roll"] = false,
+	["Auto Buy Upgrades"] = false,
+	["Webhook Stats"] = false,
+	["Auto Use Fruit"] = false,
+	["Auto Roll Fast"] = false,
+	["Hop New Server"] = false,
+	["Enabled Use Combo"] = false,
+	["Black Screen"] = false,
+	["Auto Send Mail"] = false,
+	["Auto Machine Fruit"] = false,
+	["Auto Farm Coins"] = false,
+	["Auto Collect Loot Bag"] = false,
+	["Combo Bonus Roll"] = false,
+	["Auto Buy Vending Machine"] = false,
+	["Webhook Roll Pet"] = false,
+	["Auto Claim MailBox"] = true,
+	["Auto Buy Shop Index"] = false,
+	["Auto Sell Pet"] = false,
+	["Auto Join Plaza"] = false,
+	["Auto Swap Eggs"] = false,
+	["Ping Discord"] = false,
+	["Auto Craft Potion"] = false,
+	["Auto Dig"] = false,
+	["Boost FPS"] = false,
+	["Auto Shiny Fruit"] = false
 }
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e81ea00ef49a917bb1242da4f41dc4f9.lua"))()
+getgenv().Key = "06a51f6500cd3cb01d7bc887" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
