@@ -1,7 +1,7 @@
 script_key="bduIYIzuyYaYtLJZelPAqNNgTsGitwDN";
 
 getgenv().petsGoConfig = {
-    EVENT_EGG = false,
+    EVENT_EGG = true,
 
     HIDE_NAME = false,  -- hide webhook username
     WEBHOOK_URL = "https://discord.com/api/webhooks/1302951303089229885/n99H7fPnFC5LhQbADYDajVEsbNn2aoxgdSmOxBa-1jpjun8sfKdqmKLgdOSV8px2DJF5",
